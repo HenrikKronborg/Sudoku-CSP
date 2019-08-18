@@ -1,2 +1,33 @@
-# Sudoku-CSP
-Solving Sudoku as a Constraint Satisfaction Problem using the AC-3 algorithm
+# Sudoku CSP
+Solving Sudoku as a Constraint Satisfaction Problem using the AC-3 algorithm.
+
+## Results
+### Board: veryhard.txt
+```
+. . 1 | . . 7 | . . .
+6 . . | 4 . . | 3 . .
+. . . | . 3 . | . 6 4
+------+-------+------
+3 8 . | . 7 6 | . . .
+. . . | . . . | . 3 6
+2 7 . | . 1 5 | . . .
+------+-------+------
+. . . | . 2 . | . 5 1
+7 . . | 1 . . | 2 . .
+. . 8 | . . 9 | . . .
+```
+
+### Solved
+```
+4 3 1 | 8 6 7 | 9 2 5
+6 5 2 | 4 9 1 | 3 8 7
+8 9 7 | 5 3 2 | 1 6 4
+------+-------+------
+3 8 4 | 9 7 6 | 5 1 2
+5 1 9 | 2 8 4 | 7 3 6
+2 7 6 | 3 1 5 | 8 4 9
+------+-------+------
+9 4 3 | 7 2 8 | 6 5 1
+7 6 5 | 1 4 3 | 2 9 8
+1 2 8 | 6 5 9 | 4 7 3
+```
